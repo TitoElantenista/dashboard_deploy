@@ -158,7 +158,7 @@ col1.dataframe(df_formatted)
 df_transposed = df_original.set_index("Jahr").T
 
 # Create the line plot
-fig = px.line(df_transposed, y=selected_value, title="Line-Diagramm aus den ausgewählten Jahren", height=400,
+fig = px.line(df_transposed, y=selected_value, title="Line-Diagramm der ausgewählten Jahren", height=400,
               labels={"variable": "Jahr", "index": "Monat", "value": "Wert"}
               )
 fig.update_layout(
@@ -178,7 +178,7 @@ col1.markdown("---")
 col2.markdown("---")
 
 primer_ano = col1.selectbox(
-    'Wählen Sie den Jahr',
+    'Wählen Sie das Jahr',
     values,
     key=1
 )
@@ -188,7 +188,7 @@ primer_mes = col1.selectbox(
     key=2
 )
 segundo_ano = col2.selectbox(
-    'Wählen Sie den Jahr',
+    'Wählen Sie das Jahr',
     values,
     key=3
 )
