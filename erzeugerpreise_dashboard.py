@@ -256,7 +256,9 @@ Logischerweise wird das Dashboard erst dann aktualisiert, wenn neue Daten in dem
 
 Das Dashboard wurde auf gemeinnütziger Basis und als Teil eines Lernprozesses erstellt.
 
-Der Code ist auf Github unter dem folgenden Link veröffentlicht. Jeder Beitrag oder Hinweis zur Verbesserung des Dashboards ist willkommen.
+Der Code ist auf Github unter dem folgenden Link veröffentlicht. https://github.com/TitoElantenista/dashboard_deploy
+
+Jeder Beitrag oder Hinweis zur Verbesserung des Dashboards ist willkommen.
 """
 
 st.markdown(texto_final)
